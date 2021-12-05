@@ -1,12 +1,14 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  margin: 40px;
 }
-
 ol, ul {
   padding-left: 30px;
 }
-
+li > button {
+  margin: 5px;
+  border-radius: 5px;
+}
 .board-row:after {
   clear: both;
   content: "";
@@ -14,6 +16,9 @@ ol, ul {
 }
 
 .status {
+  color: blue;
+  font-size: medium;
+  padding-left: 20px;
   margin-bottom: 10px;
 }
 
